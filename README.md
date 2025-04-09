@@ -22,9 +22,9 @@ Create a C# console application to synchronize data between a SQL Server databas
 ---
 
 ## 🧱 Technical Requirements
-- Language: C# (.NET 6 or later)
+- Language: C# (.NET 8 or later)
 - Libraries:
-  - `System.Data.SqlClient` for SQL Server
+  - `Microsoft.Data.SqlClient` for SQL Server
   - `Microsoft.Data.Sqlite` or `System.Data.SQLite` for SQLite
 - Use ADO.NET or Dapper (no EF Core)
 - Include proper error handling and logging to console
